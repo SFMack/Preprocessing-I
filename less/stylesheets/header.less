@@ -6,6 +6,7 @@ header {
 	height: 20rem;
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 	color: @bluewhite;
 	display: flex;
 	align-content: center;
@@ -20,10 +21,21 @@ header {
 		h1 {
 			margin-top: 7%;
 			font-size: 5rem;
+			.gochiFont();
+
+			@media (max-width: @mobile) {
+				margin-top: 25%;
+				font-size: 3rem;
+			}
 		}
 
 		h3 {
-			font-size: 2.5rem;
+			font-size: 2rem;
+			.nunitoFont();
+
+			@media (max-width: @mobile) {
+				font-size: 1.5rem;
+			}
 		}
 	}
 }
