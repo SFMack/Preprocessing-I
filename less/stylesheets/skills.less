@@ -1,0 +1,27 @@
+@import './variables.less';
+
+.skillsSection {
+	margin: 4rem 0 5rem 0;
+
+	div {
+		.center();
+		margin-bottom: 2rem;
+		color: @persiangreen;
+
+		h2 {
+			font-size: 2rem;
+		}
+	}
+
+	ul {
+		display: flex;
+		justify-content: space-around;
+
+		@media (max-width: 500px) {
+			display: inline-block;
+			text-align: center;
+			width: 100%;
+			font-size: 1.5rem;
+		}
+	}
+}

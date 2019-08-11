@@ -1,19 +1,152 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+	<head>
+		<meta charset="utf-8" />
 
-  <title>My Resume</title>
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
 
-  <link rel="stylesheet" href="css/index.css">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
-
-<body>
-  <h1>My Resume</h1>
-</body>
+	<body>
+		<nav>
+			<ul>
+				<li><i class="fas fa-user-tie"></i></li>
+				<li><i class="fas fa-file-alt"></i></li>
+				<li><i class="fas fa-briefcase"></i></li>
+				<li><i class="fas fa-address-book"></i></li>
+			</ul>
+		</nav>
+		<header>
+			<div>
+				<h1>Christian Mack</h1>
+				<h3>Full Stack Developer</h3>
+			</div>
+		</header>
+		<div class="siteWrapper">
+			<section class="introSection">
+				<div class="introContent">
+					<div class="row">
+						<div class="col s12">
+							<div class="card darken-1">
+								<div class="card-content">
+									<span class="card-title">Welcome!</span>
+									<p>
+										Hello my name is Christian Mack. When I'm not debugging code
+										or reading docs I am traveling, cooking or in the gym.
+										Admittedly, my professional tech experience is limited.
+										However, my past experiences have afforded me a handful of
+										transferable skills. As the Sous Chef of a fine dining
+										establishment, my attention to detail is impeccable;
+										borderline instinctual. In a fast paced environment, it's
+										important to be able to pick up new material quickly. As a
+										developer this mindset has the advantage of helping to
+										address gaps in knowledge quickly, allowing me to focus on
+										understanding the pain points.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="skillsSection">
+				<div>
+					<h2>Familiar Technologies</h2>
+				</div>
+				<ul class="skillsList">
+					<li>React</li>
+					<li>Node</li>
+					<li>MongoDB</li>
+					<li>Express</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Vanilla Javascript</li>
+					<li>Git/Github</li>
+				</ul>
+			</section>
+			<section class="workHistory">
+				<h2 class="workTitle">Work History</h2>
+				<ul class="collection">
+					<li class="collection-item">
+						<h3>Trestle</h3>
+						<h4>Sous Chef</h4>
+						<p>
+							Manage a team of 8 cooks during service. Open and close the
+							restaurant. Keep front of house and back of house in sync.
+						</p>
+					</li>
+					<li class="collection-item">
+						<h3>Leo's Oyster Bar</h3>
+						<h4>AM Sous Chef</h4>
+						<p>
+							Stay on top of the daily changing needs of the restaraunt and
+							adjust my task schedule accordingly. Manage the prep cooks to make
+							sure they finish their tasks with ideal timing. Occasionaly work
+							on the line or whatever else needs to be done.
+						</p>
+					</li>
+				</ul>
+			</section>
+			<section class="contact">
+				<div class="row">
+					<form class="col s12">
+						<div class="row">
+							<div class="input-field col s6">
+								<input
+									placeholder="First Name"
+									id="first_name"
+									type="text"
+									class="validate"
+								/>
+							</div>
+							<div class="input-field col s6">
+								<input
+									placeholder="Last Name"
+									id="last_name"
+									type="text"
+									class="validate"
+								/>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input
+									placeholder="Email"
+									id="email"
+									type="email"
+									class="validate"
+								/>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<textarea
+									placeholder="Type your message here"
+									id="textarea1"
+									class="materialize-textarea"
+								></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<button>Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+		</div>
+		<footer class="page-footer">
+			<div class="footer-copyright">
+				<div class="container">
+					© 2019 Copyright
+				</div>
+			</div>
+		</footer>
+		<script src="https://kit.fontawesome.com/a7ab93b254.js"></script>
+	</body>
 </html>
